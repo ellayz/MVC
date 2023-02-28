@@ -10,10 +10,13 @@ class MyInfo extends Model
     use HasFactory;
     public static function datas(){
         $webbase =[
-            'name' => 'My Web Page',
-            'information' => 'This web page is free, responsive one page theme created by bootstrap',
-            'yourname' => 'ACEZYLLE A. QUIOYO'
+            'name' => 'My Webpage',
+            'information' => 'Welcome To My Page',
+            'yourname' => 'ACEZYLLE ARANETA. QUIOYO',
+            'about' => 'Built With ', 
+            
         ];
         return $webbase;
     }
 }
+
