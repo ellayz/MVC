@@ -11,10 +11,10 @@ class IMG extends Model
 
     public static function img() {
         $data = [
-            "assets/img/bg-masthead.jpg",
+            "assets/img/demo-image-01.jpg",
             "assets/img/bg-signup.jpg",
             "assets/img/bg-masthead.jpg",
-            "assets/img/bg-signup.jpg"
+            "assets/img/demo-image-02.jpg"
         ];
 
         return $data;

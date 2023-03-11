@@ -17,5 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/index',[MainPageController::class, 'SendData'])->name('toindex');
-
+Route::get('/',[MainPageController::class, 'SendData'])->name('toindex');
+Route::get('1',[MainPageController::class, 'SendData1'])->name('toindex');
+Route::post('getstarted', [MainPageController::class, 'SendData2']);
